@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+	<title>HyperTextMarkupLanguage Loader</title>
+	<style>
+	body{
+		font-family:Verdana,DejaVu Sans;
+	}
+	</style>
+</head>
+
+<body>
+	<h1>HTML Help website loader 1.0a</h1>
+	<!-- Hyperlinks  -->
+	<h2><b>Select a hyperlink to load a website or run a Windows executable</b></h2>
+	<a href="https://google.com">Redirect to Google</a>
+	</br>
+	<a href="https://duckduckgo.com/">Redirect to DuckDuckGo</a>
+	</br>
+	<a href="file:///c:/windows/system32/cmd.exe"> Start Command Prompt</a>
+	</br>
+	<a href="file:///c:/windows/system32/WindowsPowerShell/v1.0/powershell.exe"> Start Windows Powershell [Legacy] (x64)</a>
+	</br>
+	<a href="file:///c:/windows/syswow64/WindowsPowerShell/v1.0/powershell.exe"> Start Windows Powershell [Legacy] (x86)</a>
+	</br>
+	<h2><b>URL Redirector</b></h2>
+	
+	<!-- URL Redirector  -->
+	<div id="urlRedirect">
+	<script language="javascript" type="text/javascript">
+    function buttonClick()
+	{
+	//creates a variable called url (javascript) from element inputURL (html)
+    var url = document.getElementById("inputURL").value;
+    window.location = url;
+    }
+	</script>
+	<!-- Input box for a website to redirect -->
+	Enter URL to redirect: <input type="text" id="inputURL" name="inputURL" value="">
+	<!-- A button to redirect to the custom URL -->
+	<input type="button" value="Redirect me!" OnClick="buttonClick()"/>
+	</div>
+	</br>
+	
+	<!-- Show browser information -->
+	<h2><b>Browser Information:</b></h2>
+	<div id="browserInfo">
+
+	<script>
+	//This javascript allows you to extract different browser information like browser name or user agent header
+	var text = "<p>Browser CodeName: " + navigator.appCodeName + "</p>" +
+				"<p>Browser Name: " + navigator.appName + "</p>" +
+				"<p>Browser Version: " + navigator.appVersion + "</p>" +
+				"<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>" +
+				"<p>Browser Language: " + navigator.language + "</p>" +
+				"<p>Browser Online: " + navigator.onLine + "</p>" +
+				"<p>Platform: " + navigator.platform + "</p>" +
+				"<p>User-agent header: " + navigator.userAgent + "</p>";
+			//Embed the browser information in the div named browserInfo
+			document.getElementById("browserInfo").innerHTML = text;
+	</script>
+	</div>
+	
+	<!-- Credit -->
+	<h3>InfinityDoki Productions (c) 2022 <a href="https://github.com/CedMIX-Productions/">Github</a></h3>
+
+</body>
