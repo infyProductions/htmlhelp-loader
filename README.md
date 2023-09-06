@@ -6,7 +6,7 @@
 > DISCLAIMER: HTML help uses an older version of Internet Explorer. *DO NOT* use this to enter sensitive information like e-mails and password and you might likely get a lot of javascript errors while using it on other sites. (Please don't load untrusted javascript that might compromise your machine)
 
 ## Features include:
-1. Common hyperlinks (including Google, DuckDuckGo, Command Prompt [cmd.exe], and Windows PowerShell Legacy [powershell.exe])
+1. Common hyperlinks (including Google, DuckDuckGo, Frogfind, Command Prompt [cmd.exe], and Windows PowerShell Legacy [powershell.exe])
 2. A custom URL redirector (to browse other websites directly)
 3. Shows browser info (like browser name and user agent header
 
