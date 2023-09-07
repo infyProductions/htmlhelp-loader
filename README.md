@@ -1,14 +1,17 @@
 # Welcome to HHLoader! (HtmlHelp Loader)
+
+### Github release 1.5 Alpha
+
 ![hhloader_sample](https://user-images.githubusercontent.com/31158494/195764553-224ffeaf-06fc-46bf-abda-6218cd0a3266.png)
 ## Description:
-*HHLoader* allows html help to browse the internet using this html file.
+*HHLoader* allows html help to browse the internet with the help this early HTML style-like file.
 
-> DISCLAIMER: HTML help uses an older version of Internet Explorer. *DO NOT* use this to enter sensitive information like e-mails and password and you might likely get a lot of javascript errors while using it on other sites. (Please don't load untrusted javascript that might compromise your machine)
+> DISCLAIMER: HTML help uses an old and minimal version of Internet Explorer. *DO NOT* use this to enter sensitive information like e-mails and password and you might likely get a lot of javascript errors while using it on other sites specially modern ones with lots heavy javascript or even HTML 5 content.
 
 ## Features include:
-1. Common hyperlinks (including Google, DuckDuckGo, Frogfind, Command Prompt [cmd.exe], and Windows PowerShell Legacy [powershell.exe])
-2. A custom URL redirector (to browse other websites directly)
-3. Shows browser info (like browser name and user agent header
+1. Common hyperlinks (including Google, DuckDuckGo, Frogfind, TheOldNet [Full and Lite], Command Prompt [cmd.exe], and Windows PowerShell Legacy [powershell.exe])
+2. A custom URL redirector to browse other websites directly (Don't even attempt to load more modern websites involving heavy javascript)
+3. Shows browser info in the bottom (like browser name and user agent header)
 
 ## How to use:
 - RUN Box - Press Win + R keys and type the following:
