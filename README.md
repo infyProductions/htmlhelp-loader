@@ -1,6 +1,6 @@
 # Welcome to HHLoader! (HtmlHelp Loader)
 
-### Github release 1.5 Alpha
+### Github release 1.6 Alpha
 
 ![hhloader_sample](https://user-images.githubusercontent.com/31158494/195764553-224ffeaf-06fc-46bf-abda-6218cd0a3266.png)
 ## Description:
